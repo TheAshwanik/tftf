@@ -70,7 +70,7 @@ Parameters:
   AnsibleDeployerConfigUrl:
     Description: URL to ansible deployer config file
     Type: String
-    Default: https://raw.githubusercontent.com/Mierdin/tftf/master/config-tf-aws-k8s-3node.yaml
+    Default: https://raw.githubusercontent.com/TheAshwanik/tftf/master/config-tf-aws-k8s-3node.yaml
 
 Mappings:
   AWSInstanceType2Arch:
