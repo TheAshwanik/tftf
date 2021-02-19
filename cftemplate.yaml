@@ -279,7 +279,8 @@ Resources:
               ssh-keygen -t rsa -C "" -P "" -f "/root/.ssh/id_rsa" -q
 
               yum install -y epel-release
-              yum install -y python-urllib3 wget git ansible-2.4.2.0 python-pip python-boto python2-boto3
+              yum -y install python-pip wget git unzip python-urllib3 python-boto pystache python-daemon jq moreutils python-paramiko python2-cryptography sshpass python-boto3
+              rpm -i https://releases.ansible.com/ansible/rpm/release/epel-7-x86_64/ansible-2.7.18-1.el7.ans.noarch.rpm
               pip install awscli
 
               aws configure set aws_access_key_id ${ACCESS_KEY}
