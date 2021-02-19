@@ -43,7 +43,7 @@ Parameters:
     Default: tungsten123
     MinLength: 8
     MaxLength: 20
-    AllowedPattern: ^[a-zA-Z0-9]*$
+    #AllowedPattern: ^[a-zA-Z0-9]*$
 
   AnsibleOrchestrator:
     Description: Ansible deployer orchestrator
